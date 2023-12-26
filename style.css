@@ -1,0 +1,216 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center; /* Center the text within the header */
+}
+
+footer {
+  text-align: center; /* Center the text within the header */
+}
+
+.container {
+  max-width: 1200px; /* Set your preferred maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding for spacing inside the container */
+}
+
+nav {
+  background-color: #C61313; /* Google Blue */
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #8a0d0d;
+}
+
+.index-header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.name {
+  text-align: left;
+  flex: 1;
+}
+
+.name h1 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.name p {
+  margin: 0;
+  color: #555;
+}
+
+.profile-image {
+  flex: 1;
+  text-align: right;
+}
+
+.profile-image img {
+  border-radius: 10px; /* Adjust the border-radius value for rounded edges */
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 10px;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#about {
+  background-color: #e6e6e6;
+}
+
+#contact {
+  background-color: #e6e6e6;
+}
+
+footer {
+  background-color: #d14242;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* TIMELINE */
+
+/* ... (previous styles) */
+
+.timeline-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.timeline {
+  width: 45%; /* Adjust the width as needed */
+  position: relative;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.timeline-content {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.timeline-image {
+  width: 75px;
+  height: 75px;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  border-radius: 10%;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+
+.timeline-divider {
+  border: 1px solid #ccc; /* Customize the color and style of the divider */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+
+/* SKILLS */
+
+#skills {
+  margin-top: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill {
+  margin: 10px;
+  text-align: center;
+}
+
+.skill-box {
+  background-color: #f5f5f5; /* Light gray background color for the box */
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+.skill-name {
+  display: block;
+  margin-top: 5px; /* Adjust the margin as needed */
+}
+
+.skill-rating {
+  display: flex;
+  justify-content: center;
+}
+
+
+.cover-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cover-image img {
+  width: 100%;
+  height: auto;
+  position: center;
+}
+
+.profile {
+  float: left;
+  width: 100%; /* Adjust the width as needed */
+  margin-right: 20px; /* Add margin between the profile and about me */
+}
+
+.profile img {
+  border-radius: 10%;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.about {
+  overflow: hidden; /* Clear the float from the profile */
+}
+
+.index-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top of the container */
+}
