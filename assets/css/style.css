@@ -217,3 +217,8 @@ footer {
   justify-content: space-between;
   align-items: flex-start; /* Align items at the top of the container */
 }
+
+.tesla-logo{
+  height: 10px;
+  width: 100px;
+}
